@@ -25,5 +25,5 @@ that it will return at the first unhandled error or when the body is totally eva
 
 `protect_bailing_with` will do the same that `protect_bailing_returning` but it takes
 a function as its first argument, and if some computation inside the body raises an error
-that function will be called with the result of the failed computation, usually, the error message, as
-its first argument this is very useful when you want a uniform way to handle exceptions while doing assertions
+that function will be called with the result of the failed computation, usually the error message, as
+its first argument, this is very useful when you want a uniform way to handle exceptions while doing assertions
