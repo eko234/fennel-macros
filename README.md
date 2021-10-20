@@ -27,3 +27,15 @@ that it will return at the first unhandled error or when the body is totally eva
 a function as its first argument, and if some computation inside the body raises an error
 that function will be called with the result of the failed computation, usually the error message, as
 its first argument, this is very useful when you want a uniform way to handle exceptions while doing assertions
+
+### The following is a family of macros that demonstrate the aim of some proposals for the language
+
+##fnerl
+##lambdaerl variadic matching functions according to arglists
+##lets let strinct
+##fngen
+##lambdagen
+
+
+
+
